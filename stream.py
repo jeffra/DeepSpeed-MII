@@ -1,3 +1,10 @@
+"""
+This example is mostly borrowed from vllm which was originally borrowed from huggingface
+
+https://github.com/vllm-project/vllm/blob/42c02f5892e984d308614f074f423a311aba8993/vllm/engine/llm_engine.py#L660-L678
+https://github.com/vllm-project/vllm/blob/42c02f5892e984d308614f074f423a311aba8993/vllm/transformers_utils/tokenizer.py#L119-L182
+"""
+
 from typing import List, Optional, Tuple, Union
 from dataclasses import dataclass
 
